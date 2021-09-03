@@ -17,5 +17,5 @@ const productSchema = new mongoose.Schema({
 	productDes: String,
 	productVote: Array,
 })
-const Product = mongoose.model('Product',productSchema, 'products');
+const Product = mongoose.model('Product',productSchema, 'Products');
 module.exports = Product;
