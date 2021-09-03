@@ -4,7 +4,6 @@ const User = require('./../class/userClass');
 const userModle = require('./../models/UserModel')
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
-const { reset } = require('nodemon');
 
 class UserController {
     token = async ( req, res) =>{
